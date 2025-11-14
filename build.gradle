@@ -113,8 +113,8 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
     maven {
-        name = 'Twilight Forest'
-        url = 'https://maven.theillusivec4.top/'
+        name = 'Tamaized Maven'
+        url = "https://maven.tamaized.com/releases"
     }
     // Put repositories for dependencies here
     // ForgeGradle automatically adds the Forge maven and Maven Central for you
@@ -136,7 +136,7 @@ dependencies {
 
 
     // 添加暮色森林模组依赖
-    implementation fg.deobf("com.github.teamtwilight:twilightforest-forge:1.20.1-4.3.2508")
+    implementation fg.deobf("team-twilight:twilightforest:4.3.2508:universal")
 
 
     // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings
